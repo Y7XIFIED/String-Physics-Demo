@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text String Animation</title>
+  <link rel="icon" type="image/png" href="/favicon.png">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body { width: 100%; height: 100%; overflow: hidden; background: #050505; touch-action: none; font-family: 'Nasalization', sans-serif; }
+    header {
+      position: absolute; top: 0; left: 0; width: 100%; height: 60px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(10, 10, 10, 0.6); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      z-index: 100; border-bottom: 1px solid rgba(255,255,255,0.1);
+      font-size: 24px; color: #fff; letter-spacing: 2px;
+    }
+    footer {
+      position: absolute; bottom: 0; left: 0; width: 100%; height: 50px;
+      display: flex; align-items: center; justify-content: center;
+      background: rgba(10, 10, 10, 0.6); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px);
+      z-index: 100; border-top: 1px solid rgba(255,255,255,0.1);
+      font-size: 14px; color: #aaa; letter-spacing: 1px;
+    }
+    #container {
+      position: relative;
+      width: 100%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 0 20px;
+      user-select: none;
+      -webkit-user-select: none;
+    }
+    @font-face {
+      font-family: 'Nasalization';
+      src: url('/Nasalization.otf') format('opentype');
+    }
+    .letter {
+      position: absolute;
+      top: 0; left: 0;
+      will-change: transform;
+      font-family: 'Nasalization', sans-serif;
+      font-size: 20px;
+      line-height: 1;
+      color: #fff;
+      pointer-events: none;
+    }
+    .letter.draggable {
+      pointer-events: auto;
+      cursor: grab;
+      z-index: 10;
+      touch-action: none;
+    }
+    .letter.dragging {
+      cursor: grabbing;
+    }
+  </style>
+</head>
+<body>
+  <header>Y7XIFIED</header>
+  <div id="container"></div>
+  <footer>© 2026 Y7XIFIED. All rights reserved.</footer>
+  <script type="module" src="/main.ts"></script>
+</body>
+</html>

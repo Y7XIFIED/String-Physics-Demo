@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Vite build output
+dist/
+dist-ssr/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Lock files (regenerated on install)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+bun.lockb
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Tool artifacts
+.playwright-mcp/
+.claude/
+
+# Python virtual environments
+.venv/
+
+.vercel

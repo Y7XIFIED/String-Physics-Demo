@@ -37,15 +37,6 @@ String-Physics-Demo/
 ├── .vercel
 │   ├── project.json
 │   └── README.txt
-├── dist
-│   ├── assets
-│   │   ├── 1.png
-│   │   └── index-DFFzYdz0.js
-│   ├── drag.png
-│   ├── index.html
-│   ├── Inertia.otf
-│   ├── MoonWalk.otf
-│   └── Nasalization.otf
 ├── favicon.png
 ├── index.html
 ├── LICENSE

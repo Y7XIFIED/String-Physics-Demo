@@ -39,7 +39,7 @@ String-Physics-Demo/
 │   └── README.txt
 ├── dist
 │   ├── assets
-│   │   ├── favicon--0qO1UAv.png
+│   │   ├── 1.png
 │   │   └── index-DFFzYdz0.js
 │   ├── drag.png
 │   ├── index.html

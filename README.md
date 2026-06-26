@@ -18,8 +18,8 @@ Interact dynamically with your mouse or touch to explore the visual effects! Mov
 ### Setup Instructions
 1. Clone the repository:
 ```bash
-git clone https://github.com/Y7XIFIED/string-physics-demo.git
-cd string-physics-demo
+git clone https://github.com/Y7XIFIED/String-Physics-Demo.git
+cd String-Physics-Demo
 ```
 2. Install the package dependencies:
 ```bash
@@ -32,7 +32,7 @@ npm run dev
 
 ## 📂 Project Structure
 ```text
-string-physics-demo/
+String-Physics-Demo/
 ├── .gitignore
 ├── .vercel
 │   ├── project.json
